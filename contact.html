@@ -3,4 +3,65 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cats - Contact</title>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Cats</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2>Join the eNewsletter!</h2>
+        <form>
+          <label for="fullName">Full Name</label><br />
+          <input type="text" id="fullName" name="fullName" required /><br />
+          <label for="email">Email</label><br />
+          <input type="email" id="email" name="email" required /><br />
+          <label for="comments">Comments</label><br />
+          <textarea id="comments" name="comments" required></textarea><br />
+          <fieldset>
+            <legend>How did you hear about us?</legend>
+            <label for="friend"
+              ><input name="findUs" type="radio" id="friend" value="friend" />A
+              friend</label
+            >
+            <label for="instagram"
+              ><input
+                name="findUs"
+                type="radio"
+                id="instagram"
+                value="instagram"
+              />Instagram</label
+            >
+          </fieldset>
+          <fieldset>
+            <legend>What kind of cat(s) do you have?</legend>
+            <label for="tabby"
+              ><input
+                name="cats"
+                type="checkbox"
+                id="tabby"
+                value="tabby"
+              />Tabby</label
+            >
+            <label for="calico"
+              ><input
+                name="cats"
+                type="checkbox"
+                id="calico"
+                value="calico"
+              />Calico</label
+            >
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <small>&copy; 2026 Cat Lovers Inc. All rights reserved.</small>
+    </footer>
+  </body>
 </html>
